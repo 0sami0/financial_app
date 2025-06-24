@@ -1,0 +1,3 @@
+ALTER TABLE goals
+ADD COLUMN priority VARCHAR(10) DEFAULT 'Medium',
+ADD COLUMN progress INT DEFAULT 0;

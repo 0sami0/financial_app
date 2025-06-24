@@ -1,0 +1,2 @@
+ALTER TABLE transactions ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+UPDATE transactions SET created_at = CURRENT_TIMESTAMP WHERE created_at IS NULL;
