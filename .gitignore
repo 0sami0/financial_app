@@ -1,0 +1,14 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore sensitive environment files
+.env
+config.php
+
+# Ignore IDE/editor helper files
+.idea/
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
